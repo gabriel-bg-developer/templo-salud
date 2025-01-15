@@ -2,8 +2,8 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="bg-white py-16 px-8">
-      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-8">
+    <section className="bg-white py-8 px-4 md:px-8">
+      <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-8 px-4 md:px-0">
         <div className="text-center lg:text-left ">
           <h1 className="text-4xl font-bold mb-4 text-[#1A6163]">Tu salud es nuestra prioridad.</h1>
           <p className="text-lg mb-6 text-[#9F7C6A]">

@@ -19,7 +19,7 @@ const JoinBanner = () => {
           <h2 className="text-4xl font-bold mb-4 text-[#1A6163]">
             Únete a nuestra red de profesionales
           </h2>
-          <p className="text-lg mb-6 text-gray-600]">
+          <p className="text-lg mb-6 text-gray-800">
             Forma parte de la comunidad médica más grande del país
           </p>
           <button className="px-6 py-3 bg-[#EF4D63] text-white hover:text-gray-800 rounded-lg hover:bg-[#BBDDD5] transition-colors duration-300">
