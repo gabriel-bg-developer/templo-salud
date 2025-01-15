@@ -33,9 +33,9 @@ const Header = () => {
         <div className="hidden lg:flex items-center gap-8">
           <nav>
             <ul className="flex space-x-4">
-              <li><Link href="/" className="hover:text-gray-800 text-[#1A6163]">Home</Link></li>
-              <li><Link href="/" className="hover:text-gray-800 text-[#1A6163]">About</Link></li>
-              <li><Link href="/" className="hover:text-gray-800 text-[#1A6163]">Contact</Link></li>
+              <li><Link href="/" className="hover:text-gray-800 text-[#1A6163]">Inicio</Link></li>
+              <li><Link href="/" className="hover:text-gray-800 text-[#1A6163]">Sobre nosotros</Link></li>
+              <li><Link href="/" className="hover:text-gray-800 text-[#1A6163]">Contacto</Link></li>
             </ul>
           </nav>
           <Link 
@@ -57,7 +57,7 @@ const Header = () => {
                     className="text-xl hover:text-gray-800 text-[#1A6163]"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Home
+                    Inicio
                   </Link>
                 </li>
                 <li>
@@ -66,7 +66,7 @@ const Header = () => {
                     className="text-xl hover:text-gray-800 text-[#1A6163]"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    About
+                    Sobre nosotros
                   </Link>
                 </li>
                 <li>
@@ -75,7 +75,7 @@ const Header = () => {
                     className="text-xl hover:text-gray-800 text-[#1A6163]"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Contact
+                    Contacto
                   </Link>
                 </li>
               </ul>
