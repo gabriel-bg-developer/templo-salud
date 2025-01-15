@@ -16,12 +16,12 @@ export const metadata: Metadata = {
   title: "Templo Salud",
   description: "Tu bienestar es nuestra prioridad",
   icons: {
-    icon: '/images/Icons/templo-salud-favicon.webp',
-    shortcut: '/images/Icons/templo-salud-favicon.webp',
-    apple: '/images/Icons/templo-salud-favicon.webp',
+    icon: '/images/templo-salud-favicon.webp',
+    shortcut: '/images/templo-salud-favicon.webp',
+    apple: '/images/templo-salud-favicon.webp',
     other: {
       rel: 'icon',
-      url: '/images/Icons/templo-salud-favicon.webp',
+      url: '/images/templo-salud-favicon.webp',
     },
   },
 };
