@@ -11,7 +11,7 @@ const Testimonials = () => {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
           {testimonials.map((item, index) => (
             <div key={index} className="bg-white p-6 shadow-md rounded text-center text-gray-800">
-              <p className="italic">"{item.feedback}"</p>
+              <p className="italic">{item.feedback}</p>
               <p className="mt-4 font-bold">{item.name}</p>
               <div className="flex justify-center mt-2">
                 {Array(5).fill(0).map((_, i) => (
